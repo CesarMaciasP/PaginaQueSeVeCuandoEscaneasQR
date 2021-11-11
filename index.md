@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
+<html>
+  <body>
 
-You can use the [editor on GitHub](https://github.com/CesarMaciasP/PaginaQueSeVeCuandoEscaneasQR/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  <style>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    .button{
+      margin: 16px; 
+      padding: 16px;
+      background-color:rgb(0, 95, 0);
+      color: aliceblue;
+      border: none;
+      border-radius: 4px;
+      font-size: 12px;
+    }
 
-### Markdown
+    .block{
+      border-radius: 10px;
+     border: #0f9900;
+     background: #0f9900;
+     position:absolute;
+     top:50%;
+     left:50%;
+     margin-top:-120px;
+     margin-left:-180px;
+     width: 27em;
+     height: 15em;
+    }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+   .field {
+     margin-top:45px;
+   width: 100%;
+   text-align: center;
+   }
 
-```markdown
-Syntax highlighted code block
+    aviso {
+     font-family: "Helvetica Neue", Helvetica, sans-serif;
+     color: white;
+     font-size: larger;
+     font-weight: bold;
+     margin: auto;
+    }
 
-# Header 1
-## Header 2
-### Header 3
+   body {
+     font-family: "Helvetica Neue", Helvetica, sans-serif;
+   }
 
-- Bulleted
-- List
+   .header {
+  background-color: rgb(30, 148, 40);
+  height: 75px;
+ 
+   }
 
-1. Numbered
-2. List
+ </style>
 
-**Bold** and _Italic_ and `Code` text
+<img src="hoja.jpg" alt="Fondo" width="1580" height="800" >
 
-[Link](url) and ![Image](src)
-```
+   <div class="block">
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+     <div class="field">
+       <aviso>¡Se ha registrado tu asistencia al evento exitosamente!</aviso>
+     </div>
 
-### Jekyll Themes
+     <h2></h2>
+     
+     <div class="field">
+        <input type="button" class="button" value=Volver> 
+     </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CesarMaciasP/PaginaQueSeVeCuandoEscaneasQR/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+   </div>
+</body>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+   
+   
+
+   </html>
